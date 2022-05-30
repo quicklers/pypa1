@@ -79,9 +79,9 @@ faker==13.3.2 \
     --hash=sha256:66db859b6abe376d02e805ad81eb8dcfce38f0945f17ee7cdf74ed349985ea52 \
     --hash=sha256:fe969607836ce7100e38b88dcb598aacb733d895e6e9401894dd603e35623000
     # via factory-boy
-fakeredis==1.7.1 \
-    --hash=sha256:7c2c4ba1b42e0a75337c54b777bf0671056b4569650e3ff927e4b9b385afc8ec \
-    --hash=sha256:be3668e50f6b57d5fc4abfd27f9f655bed07a2c5aecfc8b15d0aad59f997c1ba
+fakeredis==1.8 \
+    --hash=sha256:65dcd78c0cd29d17daccce9f58698f6ab61ad7a404eab373fcad2b76fe8db03d \
+    --hash=sha256:cbf8d74ae06672d40b2fa88b9ee4f1d6efd56b06b2e7f0be2c639647f00643f1
     # via -r requirements/tests.in
 freezegun==1.2.0 \
     --hash=sha256:93e90676da387a241a7c2ae7ae68af7b95bfe80e952d0bbf3e088342de90a38d \
@@ -106,7 +106,6 @@ packaging==21.3 \
     --hash=sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb \
     --hash=sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522
     # via
-    #   fakeredis
     #   pytest
     #   redis
 pluggy==1.0.0 \
