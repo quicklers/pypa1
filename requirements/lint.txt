@@ -41,9 +41,9 @@ botocore-stubs==1.24.19 \
     --hash=sha256:75a2b872f55c5d5bd1b65acb26acfda46e2355127755864d1389f3923f620e10 \
     --hash=sha256:8ce705e5dea08bd0251ed7648ca8303737148864f7f5cb2598376679d96d8b18
     # via boto3-stubs
-celery-types==0.12.0 \
-    --hash=sha256:22a0b46d04508bbdb5074d070ebac6179550c2aa8506e1b05b74850d61d4fa82 \
-    --hash=sha256:4648eeeafa10eabaf4e414e4a9546d8a5cfec0f025a325a4c42508d16273be5c
+celery-types==0.13.0 \
+    --hash=sha256:28c7a5e024d541aaf501a2d2fc3b671c193b1993d0be0cc257188bdcadc5557a \
+    --hash=sha256:29beddabfc04878baae06bf1779d94e89d52b613b2baeae6ebb58cfd86e1c8f1
     # via -r requirements/lint.in
 click==8.0.4 \
     --hash=sha256:6a7a62563bbfabfda3a38f3023a1db4a35978c0abd76f6c9605ecd6554d6d9b1 \
@@ -225,6 +225,7 @@ typing-extensions==4.1.1 \
     --hash=sha256:21c85e0fe4b9a155d0799430b0ad741cdce7e359660ccbd8b530613e8df88ce2
     # via
     #   black
+    #   celery-types
     #   mypy
 zope-event==4.5.0 \
     --hash=sha256:2666401939cdaa5f4e0c08cf7f20c9b21423b95e88f4675b1443973bdb080c42 \
