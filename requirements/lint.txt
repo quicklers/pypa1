@@ -33,9 +33,9 @@ black==22.1.0 \
     --hash=sha256:f5660feab44c2e3cb24b2419b998846cbb01c23c7fe645fee45087efa3da2d61 \
     --hash=sha256:fdb8754b453fb15fad3f72cd9cad3e16776f0964d67cf30ebcbf10327a3777a3
     # via -r requirements/lint.in
-boto3-stubs==1.21.19 \
-    --hash=sha256:21fd563d98f4b57fdb0d9a34e49f41720b6232c078834511f5ca943a02e93302 \
-    --hash=sha256:6ecbc897909d62d54837441f526096528721902c4fed735043da66008b5541b4
+boto3-stubs==1.26.35 \
+    --hash=sha256:2880048ae56d6204275b2eaea7d9853c1e1d4c35db62fed9d16857510cb127c6 \
+    --hash=sha256:cad7504e12d59f6001cce4655ca0335cf235fbf1c5b9981dee5542c72486e9d2
     # via types-boto3
 botocore-stubs==1.24.19 \
     --hash=sha256:75a2b872f55c5d5bd1b65acb26acfda46e2355127755864d1389f3923f620e10 \
@@ -172,6 +172,10 @@ tomli==2.0.1 \
     # via
     #   black
     #   mypy
+types-awscrt==0.16.1 \
+    --hash=sha256:4e9d8fa79d0b540ccf780a46aa5bb08a30acd5fb6b6aac6491eaee41d69c560b \
+    --hash=sha256:8dce0e6b35bb41ed3824b2db82e15408766b3d5f7113a684441ec3ae10a867f7
+    # via types-s3transfer
 types-boto3==1.0.1 \
     --hash=sha256:392d5fdbb40ea0fb20f5116897e96b5e6c5b4a784e8c75aec1f5e12f2ebe3438 \
     --hash=sha256:4eb8aad23d4287d2f5b30a36e742f108beab8e0d55eb73817fdce405b8eef95e
@@ -212,6 +216,10 @@ types-requests==2.27.12 \
     --hash=sha256:120c949953b618e334bbe78de38e65aa261e1f48df021a05f0be833a848e4ba7 \
     --hash=sha256:fd1382fa2e28eac848faedb0332840204f06f0cb517008e3c7b8282ca53e56d2
     # via -r requirements/lint.in
+types-s3transfer==0.6.0.post5 \
+    --hash=sha256:2cf1e07cf4d1a5a2a68d89c654f45d9c3b678d39f7fe03a6f36903b6dbd3bcbc \
+    --hash=sha256:cfcbee11c16d60af3feb3dbffea3a85b32129235b562912dece310a45ae83a2c
+    # via boto3-stubs
 types-setuptools==57.4.10 \
     --hash=sha256:9a13513679c640f6616e2d9ab50d431c99ca8ae9848a97243f887c80fd5cf294 \
     --hash=sha256:ddc98da82c12e1208012d65276641a132d3aadc78ecfff68fd3e17d85933a3c1
@@ -225,6 +233,7 @@ typing-extensions==4.1.1 \
     --hash=sha256:21c85e0fe4b9a155d0799430b0ad741cdce7e359660ccbd8b530613e8df88ce2
     # via
     #   black
+    #   boto3-stubs
     #   mypy
 zope-event==4.5.0 \
     --hash=sha256:2666401939cdaa5f4e0c08cf7f20c9b21423b95e88f4675b1443973bdb080c42 \
